@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Latihan CSS</title>
+</head>
+<body>
+    <header id="beranda" class="site-header">
+        <h1>Jelajah Nusantara</h1>
+        <p>Menjelajahi keindahan alam dan kekayaan Indonesia.</p>
+        <nav>
+             <a href="#beranda">Beranda</a>
+             <a href="#destinasi">Destinasi</a>
+             <a href="#informasi">Informasi</a>
+             <a href="#kirimpesan">Kirim Pesan</a> 
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Informasi Tambahan</h2>
+            <p>Persiapkan perjalanan dengan baik agar wisata tetap aman, nyaman, dan tidak merusak alam.</p>
+            <h3>Sebelum Berangkat</h3>
+            <ul>
+                <li>Pastikan cuaca dan kondisi jalur perjalanan.</li>
+                <li>Pastikan destinasi sedang buka dan dapat dikunjungi.</li>
+                <li>Siapkan obat pribadi, air minum, dan perlengkapan yang sesuai.</li>
+                <li>Simpan nomor kontak petugas atau pengelola destinasi.</li>
+            </ul>
+            <h3>Jaga Alam Saat Berwisata</h3>
+            <ul>
+                <li>Bawa kembali sampah yang kamu hasilkan.</li>
+                <li>Jangan mengambil tumbuhan, batu, atau satwa liar dari habitatnya.</li>
+                <li>Ikuti jalur dan petunjuk keselamatan yang tersedia.</li>
+                <li>Hormati adat dan peraturan masyarakat setempat.</li>
+            </ul>
+            <p>Informasi pariwisata:<br>
+                <a href="https://www.indonesia.travel/" target="_blank">Portal Pariwisata Indonesia</a>
+            </p>
+        </aside>
+
+        <article id="artikel">
+            <header class="article-header">
+                <h2>Pesona Wisata Alam Indonesia</h2>
+                <p>Ditulis oleh <strong>Tim Jelajah Nusantara</strong><br>Diterbitkan pada <time datetime="2026-10-11">11 Oktober 2026</time></p>
+                <p>Indonesia memiliki beragam keindahan alam, mulai dari pegunungan, pantai, danau, hingga hutan tropis. Setiap daerah mempunyai karakteristik dan daya tarik tersendiri yang menarik untuk dijelajahi.</p>
+                <p>Wisata alam bukan hanya menjadi tempat untuk berlibur, tetapi juga kesempatan untuk mengenal keanekaragaman hayati dan budaya masyarakat setempat. Oleh karena itu, pengunjung perlu menjaga kebersihan dan kelestarian lingkungan selama melakukan perjalanan.</p>
+                <blockquote>Alam bukan sekedar tempat yang kita kunjungi, tetapi juga lingkungan yang harus kita jaga.</blockquote>
+            </header>
+
+            <section id="destinasi">
+                <h2>Rekomendasi Destinasi Wisata</h2>
+                <div class="destination-grid">
+
+                    <div class="destinasi-card">
+                        <h3>1. Gunung Bromo</h3>
+                        <figure>
+                        <img src="https://commons.wikimedia.org/wiki/File:Mount Bromo.jpg"
+                            title="Gunung Bromo"
+                            alt="Gambar gunung bromo"
+                            width="400px"
+                            height="250px">
+                            <figcaption>Gunung Bromo, Jawa Timur:Bernard Gagnon, melalui <a href="https://commons.wikimedia.org/wiki/File:Mount_Bromo.jpg" target="_blank">Wikimedia Commons</a>, lisensi <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA 3.0</a></figcaption>
+                        </figure>
+                        <p>Gunung Bromo terkenal dengan pemandangan matahari terbit, lautan pasir, dan lanskap pegunungannya.</p>
+                        <p>Lokasi: <strong>Jawa Timur</strong></p>
+                    </div>
+
+                    <div class="destinasi-card">
+                        <h3>2.Danau Toba</h3>
+                        <figure>
+                            <img src="https://commons.wikimedia.org/wiki/File:Lake Toba and the surrounding hills.jpg"
+                            tittle="Danau Toba"
+                            alt="gambar danau toba"
+                            width="400px"
+                            height="250px">
+                            <figcaption>Danau Toba, Sumatra Utara.Foto: Bisajunisa, melalui <a href="https://commons.wikimedia.org/wiki/File:Lake_Toba_and_the_surrounding_hills.jpg" target="_blank">Wikimedia Commons</a>, lisensi <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY-SA 4.0</a></figcaption>
+                        </figure>
+                        <p>Danau Toba merupakan danau vulkanik yang memiliki panorama perairan luas dan perbukitan.</p>
+                        <p>Lokasi: <strong>Sumatera Utara</strong></p>
+                    </div>
+
+                    <div class="destinasi-card">
+                        <h3>3. Raja Ampat</h3>
+                        <figure>
+                            <img src="https://commons.wikimedia.org/wiki/File:Raja Ampat %2823852186934%29.jpg"
+                            tittle="Raja Ampat"
+                            alt="Gambar raja ampat"
+                            width="400px"
+                            height="250px">
+                            <figcaption>Raja Ampat, Papua Barat Daya. Foto: sfw2503, melalui <a href="https://commons.wikimedia.org/wiki/File:Raja_Ampat_by_sfw2503.jpg" target="_blank">Wikimedia Commons</a>, lisensi <a href="https://creativecommons.org/licenses/by/2.0" target="_blank">CC BY 2.0</a></figcaption>
+                        </figure>
+                        <p>Raja Ampat terkenal dengan pulau-pulau karst, perairan jernih, dan kekayaan kehidupan bawah laut.</p>
+                        <p>Lokasi: <strong>Papua Barat Daya</strong></p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="informasi">
+                <h2 style="text-align: center;">Perbandingan Destinasi</h2>
+                <table border="1" width="100%"><thead><tr><th>Destinasi</th><th>Provinsi</th><th>Daya Tarik</th><th>Kegiatan</th></tr></thead>
+                <tr><td>Gunung Bromo</td><td>Jawa Timur</td><td>Pemandangan matahari terbit</td><td>Menikmati matahari terbit dan lautan pasir</td></tr>
+                <tr><td>Danau Toba</td><td>Sumatra Utara</td><td>Danau dan perbukitan</td><td>Menikmati pemandangan dan mengenal budaya Batak</td></tr>
+                <tr><td>Raja Ampat</td><td>Papua Barat Daya</td><td>Wisata bahari</td><td>Snorkeling dan menikmati pulau-pulau karst</td></tr>
+                </table> 
+                <h2 style="text-align: center;">Tips Menjelajahi Alam</h2>
+                <ol><li>Periksa kondisi cuaca dan jalur perjalanan.</li><li>Siapkan perlengkapan pribadi.</li><li>Bawa botol minum dan tas yang dapat digunakan kembali.</li><li>Jangan membuang sampah sembarangan.</li><li>Patuhi petunjuk keselamatan dari petugas setempat</li></ol>
+                <h2 style="text-align: center;">Tahukah Kamu?</h2>
+                <details><summary>Mengapa kita harus menjaga wisata alam?</summary><p>Lingkungan yang terjaga membantu melindungi tumbuhan, satwa, sumber air, dan kehidupan masyarakat sekitar.</p></details>
+                <details><summary>Apa yang dimaksud dengan ekowisata?</summary><p>Ekowisata merupakan kegiatan wisata yang memperhatikan kelestarian lingkungan.</p></details>
+            </section>
+
+            <section id="kirimpesan">
+                <h2 style="text-align: center;">Kirim Pesan kepada Kami</h2>
+                <form><fieldset><legend>Informasi Pengunjung</legend><label>Nama lengkap:</label><input type="text"><br><br><label>Alamat email:</label><input type="email"><br><br><label>Destinasi Pilihan:</label><select><option>Gunung Bromo</option><option>Danau Toba</option><option>Raja Ampat</option></select><br><br><label>Pesan:</label><textarea rows="4" cols="40"></textarea><br><br><button type="submit">Kirim Pesan</button><button type="reset">Hapus Isian</button></fieldset></form>
+            </section>
+            <footer><p style="text-align: center;"><em>Kontak redaksi: Ayu Widyastuti_X PPLG 3</em><br><br>@ 2026 Jelajah Nusantara. Kenali alamnya, jaga kelestariannya.<br><br><a href="#beranda">Kembali ke atas</a></p></footer>
+        </article>
+    </main>
+</body>
+</html>
